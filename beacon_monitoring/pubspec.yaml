@@ -1,0 +1,26 @@
+name: beacon_monitoring
+description: A Flutter plugin for monitoring beacons (iBeacon) on mobile platforms. Supports iOS and Android.
+version: 2.0.0
+homepage: https://github.com/ObjectivityLtd/beacon_monitoring
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  beacon_monitoring_platform_interface: ^2.0.0
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: uk.co.objectivity.beacon_monitoring
+        pluginClass: BeaconMonitoringPlugin
+      ios:
+        pluginClass: BeaconMonitoringPlugin

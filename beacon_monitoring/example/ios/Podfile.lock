@@ -1,0 +1,28 @@
+PODS:
+  - beacon_monitoring (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - flutter_local_notifications (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - beacon_monitoring (from `.symlinks/plugins/beacon_monitoring/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_local_notifications (from `.symlinks/plugins/flutter_local_notifications/ios`)
+
+EXTERNAL SOURCES:
+  beacon_monitoring:
+    :path: ".symlinks/plugins/beacon_monitoring/ios"
+  Flutter:
+    :path: Flutter
+  flutter_local_notifications:
+    :path: ".symlinks/plugins/flutter_local_notifications/ios"
+
+SPEC CHECKSUMS:
+  beacon_monitoring: a356bb2c926d065f61a209cfcc6eee8cbccaa8a4
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  flutter_local_notifications: 0c0b1ae97e741e1521e4c1629a459d04b9aec743
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.11.2
